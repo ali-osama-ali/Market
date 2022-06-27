@@ -1,0 +1,75 @@
+  OnlineMarket.Admin.resources - Embedded, ContainedInManifestFile, 
+  OnlineMarket.CartGui.resources - Embedded, ContainedInManifestFile, 
+  OnlineMarket.CustomerLogin.resources - Embedded, ContainedInManifestFile, 
+  OnlineMarket.CustomerRegister.resources - Embedded, ContainedInManifestFile, 
+  OnlineMarket.Market.resources - Embedded, ContainedInManifestFile, 
+  OnlineMarket.productRegistration.resources - Embedded, ContainedInManifestFile, 
+  OnlineMarket.SellerLogin.resources - Embedded, ContainedInManifestFile, 
+  OnlineMarket.SellerRegister.resources - Embedded, ContainedInManifestFile, 
+  OnlineMarket.Start.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly OnlineMarket, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class OnlineMarket.Admin: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String sellerId : Public
+    System.Windows.Forms.CheckBox[] checkDelete : Public
+  Methods:
+    getsellerId(String): PrivateScope, Public, HideBySig
+    showProduct(): PrivateScope, Public, HideBySig
+Class OnlineMarket.CartGui: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Double totalgroup : Public
+  Methods:
+    showCart(): PrivateScope, Public, HideBySig
+Class OnlineMarket.CustomerRegister: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class OnlineMarket.Market: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 x : Public
+    Int32 y : Public
+    Int32 location : Public
+    Int32 size : Public
+    System.Windows.Forms.Panel[] group : Public
+    System.Windows.Forms.CheckBox[] checkbuy : Public
+    System.Windows.Forms.NumericUpDown[] qunitiypro : Public
+    System.Windows.Forms.NumericUpDown[] ratepro : Public
+    Int32 check : Public
+  Methods:
+    showProduct(): PrivateScope, Public, HideBySig
+Class OnlineMarket.CustomerLogin: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class OnlineMarket.productRegistration: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    getSellerId(String): PrivateScope, Public, HideBySig
+Class OnlineMarket.SellerRegister: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class OnlineMarket.SellerLogin: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class OnlineMarket.Start: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

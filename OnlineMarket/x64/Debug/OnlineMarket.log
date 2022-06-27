@@ -1,0 +1,7 @@
+﻿  CustomerLogin.cpp
+  Market.cpp
+  Start.cpp
+D:\OnlineMarket\OnlineMarket\Start.cpp(7,33): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
+  Generating Code...
+  Admin.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  OnlineMarket.vcxproj -> D:\OnlineMarket\x64\Debug\OnlineMarket.exe
